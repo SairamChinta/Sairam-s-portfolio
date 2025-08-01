@@ -1,6 +1,5 @@
 export const navItems = [
-  { name: "About", link: "#about" },
-  
+  { name: "About", link: "#about" }, 
   { name: "Skills", link: "#skills" },
   { name: "Projects", link: "#projects" },
   { name: "Contact", link: "#contact" },
@@ -195,8 +194,8 @@ export const skills = [
 export const workExperience = [
   {
     id: 1,
-    title: "S N BOSE Summer Internship Program 2025 - Fullstack Webdeveloper Intern",
-    desc: "A smart and eco-friendly carpooling platform that connects drivers and passengers heading in the same direction using MERN stack.",
+    title: "S N BOSE Summer Internship Program 2025",
+    desc: "As a Fullstack Webdevelopers we have built a smart and eco-friendly carpooling platform that connects drivers and passengers heading in the same direction using MERN stack.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },

@@ -12,6 +12,7 @@ const Footer = () => {
         <Image
           src="/footer-grid.svg"
           alt="grid"
+          fill
           className="w-full h-full opacity-50 "
         />
       </div>

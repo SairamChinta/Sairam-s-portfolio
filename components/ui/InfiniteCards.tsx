@@ -71,6 +71,7 @@ export const InfiniteMovingCards = ({
       <Image
         src={item.img}
         alt={item.name}
+        width={24} height={24}
         className={cn(
           "object-contain",
           variant === "primary"
