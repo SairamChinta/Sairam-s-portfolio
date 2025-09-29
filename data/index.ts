@@ -3,7 +3,7 @@ export const navItems = [
   { name: "Skills", link: "#skills" },
   { name: "Projects", link: "#projects" },
   { name: "Contact", link: "#contact" },
-  { name: "Resume", link: "https://drive.google.com/file/d/19vSxw6CHEyODk10h5MNptcXi-Zu_56fz/view?usp=sharing " },
+  { name: "Resume", link: "https://drive.google.com/file/d/19jwPLXPbMIFc4TfNfx43KhMUJS_Vbi3C/view?usp=drivesdk  " },
 ];
 
 export const gridItems = [
@@ -100,6 +100,24 @@ export const projects = [
   },
   {
     id: 4,
+    title: "Clustr",
+    des: "All Your Links, One Perfect Place, Developed a website that allows users to manage and share multiple links through a single customizable page, Implemented dynamic link management, user authentication, and mobile-first responsive design",
+    img: "/clustr.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/mongo.svg", "/node.svg"],
+    link: "https://github.com/SairamChinta/clustr",
+    github:"https://github.com/SairamChinta/clustr",
+  },
+  {
+    id: 5,
+    title: "SpaceX Mission Explorer",
+    des: "SpaceX Mission Explorer is a web application using React that consumes the SpaceX public API (v4). The goal is to test your ability to design reusable React components, manage state and data, handle API integration, and deliver a clean, responsive UI",
+    img: "/spacex.png",
+    iconLists: ["/react.svg", "/tail.svg", "/ts.svg", "/next.svg"],
+    link: "https://space-x-mission-explorer-ten.vercel.app/",
+    github:"hhttps://github.com/SairamChinta/SpaceX-Mission-Explorer",
+  },
+  {
+    id: 6,
     title: "PaySwift",
     des: "where we can make payments very Swiftly",
     img: "/payswift.png",
@@ -107,7 +125,7 @@ export const projects = [
     link: "https://github.com/SairamChinta/PaySwift",
     github:"https://github.com/SairamChinta/PaySwift",
   },
-  { id: 5,
+  { id: 7,
     title: "Narrativize",
     des: "A Blogging website using Hono.js and Cloudflare Workers, postgreSQL/prisma",
     img: "/nar.png",
